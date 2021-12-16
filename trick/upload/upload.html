@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+</head>
+<body>
+    <p>
+        <ul>
+            <b># Upload</b> <br>
+            Hướng dẫn upload file có dung lượng lớn lên github 
+            <li>
+                Tải về Git LFS và cài đặt:
+                <a href="https://github.com/git-lfs/git-lfs/releases/download/v3.0.2/git-lfs-windows-v3.0.2.exe">Windowns</a>
+                <a href="https://github.com/git-lfs/git-lfs/releases/download/v3.0.2/git-lfs-linux-amd64-v3.0.2.tar.gz">Linux</a>
+            </li>
+            <li>
+                Mở repo lên:
+            </li>
+            <li>
+                Tạo git: git init            
+            </li>
+            <li>
+                Add LFS vào repo: git lfs install
+            </li>
+            <li>
+                Add đuôi: git lfs track "*.zip" "*.rar" "*.exe" "*.gz" "*.msi"
+            </li>
+            <li>
+                Add file config LFS: git add .gitattributes
+            </li>
+            Sau đó có thể add, commit, push các file nặng bình thường :3
+        </ul>
+    </p>
+</body>
+</html>
